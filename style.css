@@ -31,7 +31,6 @@ main{
     color: #0A3871;
     margin-top: 30px;
     padding: 2px;
-    text-transform: lowercase;
 }
 /*color del texto antes de escribir*/
 ::placeholder{
