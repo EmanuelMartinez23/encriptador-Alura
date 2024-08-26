@@ -10,7 +10,7 @@ const btnCopiar = document.querySelector(".copiar");
 function btnEncriptar(){
     // validmos que no tengamos letras con acentos ni caracteres especiales con expresiones reguare
     if(/[^a-z\n\s]/.test(textArea.value)){
-        alert('El texto no debe contener letras con acento ni caracteres especiales.');
+       alert('El texto no debe contener letras en mayusculas, con acento ni caracteres especiales.');
         return;
     }
     // de otra manera que siga con el cifrado
@@ -36,7 +36,7 @@ function btnDesencriptar(){
         
     }
     else {
-        alert('El texto no debe contener letras con acento ni caracteres especiales.');
+        alert('El texto no debe contener letras en mayusculas, con acento ni caracteres especiales.');
         return;
 
     }
